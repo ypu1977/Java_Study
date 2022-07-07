@@ -16,9 +16,25 @@ public class Control2_ex2 {
 		// num:1 ch:z 출력 a
 		// num:2 ch:z 출력 b
 		
-		ch = (char)(ch+num);
+		int result = ch+num;
 		
+		//소문자가 범위를 벗어났을때
+		if(result>122/* or 'z'*/) {
+			result = result - 122 /*or 'z'*/-1; //2
+			result = 'a' + result;
+		}
+		
+		//대문자가 범위를 벗어났을때
+		if(result>90 && result< 97) {
+			result = result - 'Z' -1;
+			result = 'A' + result;
+			System.out.println("대문자 영역");
+		}
+		
+	
+		ch = (char)result;
 		System.out.println("ch : "+ch);
+		//num:2 ch : z
 		
 		/*if(num==1) {
 			ch += 1;
