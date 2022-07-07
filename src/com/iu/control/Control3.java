@@ -12,7 +12,7 @@ public class Control3 {
 		int select = sc.nextInt();
 		
 		if(select == 1) {
-			int = count=1;//지역변수
+		//	int = count=1;//지역변수
 			System.out.println(num);
 			System.out.println("1 선택");
 		}else if(select==2) {
@@ -21,9 +21,8 @@ public class Control3 {
 			System.out.println("3 선택");
 		}
 		
-		System.out.println(num);
-		System.out.println(count);
 		
+		System.out.println(num);
+		//System.out.println(count); 에러		
 	}
-
 }
