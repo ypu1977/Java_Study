@@ -13,7 +13,8 @@ public class Control2 {
 		{
 			System.out.println("홀수 입니다");
 		}
-
+		
+		//추가한것
 	}
 
 }
