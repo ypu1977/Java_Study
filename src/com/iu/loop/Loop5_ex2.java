@@ -48,6 +48,7 @@ public class Loop5_ex2 {
                 break;
             case 2:
                 System.out.println("바위");
+                
                 break;
             case 3:
                 System.out.println("보");
